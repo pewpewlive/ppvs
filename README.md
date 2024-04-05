@@ -33,7 +33,7 @@ config = function ()
 
 This way the custom snippets actually appear.
 
-### With Lazy.vim
+### With Lazy.nvim
 
 ```lua
 {
