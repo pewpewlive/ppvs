@@ -8,7 +8,7 @@ Gets the snippets from [PewPewSnippets](https://github.com/pewpewlive/PewPewSnip
 
 **!!! BEFORE YOU GO ANY FURTHER !!!**
 
-For the plugin to work, you need to have nvim-cmp. You probably already have this set in your plugins list if you have downloaded any sort of lsp plugin, but it is also important that you set this in your nvim-cmp plugin:
+For the plugin to work, you need to have nvim-cmp. You probably already have this set in your plugins list if you have downloaded any sort of lsp plugin, but it is also important that you add the following in your nvim-cmp plugin:
 
 ```lua
 {
@@ -18,13 +18,13 @@ config = function ()
     snippet = {
     expand = function(args)
         require'luasnip'.lsp_expand(args.body) -- dont worry about luasnip, as it is a dependency and will be downloaded even if you dont have it
-        -- etc
+        -- other
     end
     },
 
     sources = {
     {name = 'luasnip'}
-    -- etc
+    -- other
     },
 }
 ```
