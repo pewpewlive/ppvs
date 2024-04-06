@@ -65,6 +65,6 @@ Plug 'pewpewlive/ppvs'
 
 ### Configuration
 
-```
+```lua
 require'ppvs'.setup()
 ```
