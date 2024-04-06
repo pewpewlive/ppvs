@@ -63,7 +63,7 @@ Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'pewpewlive/ppvs'
 ```
 
-### Configuration
+## Configuration
 
 ```lua
 require'ppvs'.setup()
